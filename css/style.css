@@ -1,6 +1,3 @@
-/* el nesting esta en y contacto 
-el extend esta en seccion contacto
-*/
 * {
   padding: 0;
   margin: 0;
@@ -26,8 +23,6 @@ body {
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
-  padding: 20px;
-  padding-top: 100px;
 }
 
 li {
@@ -57,7 +52,7 @@ li {
 }
 
 .logo-nav {
-  height: 3em;
+  height: 0.9em;
   width: auto;
   margin-bottom: 4.5px;
   margin-right: 0.35em;
@@ -96,7 +91,7 @@ li {
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
-  padding-top: 3px;
+  padding-top: 35px;
 }
 
 .contact-container {
@@ -105,13 +100,12 @@ li {
   align-items: center;
   flex-direction: column;
   min-height: 110vh;
+  background-image: radial-gradient(farthest-corner at 100px 100px, #5e006d 0%, #040404 100%);
   color: #fff;
-  background-image: url("../images/bg-index.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 1em;
-  padding-top: 80px;
 }
 
 .data-form {
@@ -149,60 +143,9 @@ li {
   margin: 0.5em 0 0.5em;
 }
 
-.container-photos {
-  padding-bottom: 0.5em;
-  color: #fff;
-  background-color: #000;
-}
-
-.col-xl-6 img {
-  padding: 0.5em 0 0.5em 0;
-}
-
-.img-name {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 4em;
-  text-align: center;
-  font-weight: bold;
-  background-image: url("../images/bg-index.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  color: #fff;
-}
-
-.about-img {
-  padding: 2em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #000;
-  color: #000;
-  }
-
-.about-text {
-  line-height: 1.5;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #000;
-  color: #fff;
-}
-
-.text-padding-01 {
-  padding: 1em 1em 0 1em;
-}
-
-.text-padding-02 {
-  padding: 0 1em 0 1em;
-}
-
 .container-gallery {
-  background-image: linear-gradient(#f8f8f8ec, #c4c4c400);
+  background-image: radial-gradient(farthest-corner at 100px 100px, #5e006d 0%, #040404 100%);
+  color: #fff;
 }
 
 .work-container {
@@ -224,22 +167,77 @@ li {
   max-width: 300px;
 }
 
+.item-image img {
+  border-radius: 15px;
+}
+
 .hr-product {
-  color: #000;
+  color: #fff;
   border: solid 0.5px;
   width: 38%;
   margin-bottom: 1em;
 }
 
-.producto-info p {
+.product-info p {
   text-transform: uppercase;
   font-weight: 500;
 }
 
-.btn-enviar:active {
+.container-photos {
+  padding-bottom: 0.5em;
+  color: #fff;
   background-color: #000;
-  box-shadow: 2.5px 5px 5px rgba(82, 82, 82, 0.489);
-  transform: translateY(2px);
+}
+
+.col-xl-6 img {
+  padding: 0.5em 0 0.5em 0;
+}
+
+body {
+  background-attachment: fixed;
+}
+
+.img-name {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  text-align: center;
+  font-weight: bold;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  grid-area: img-name;
+  background-image: url(/images/bg-index.jpg);
+  color: #fff;
+}
+
+.about-img {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.about-text {
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #000;
+  color: #fff;
+}
+
+.text-padding-01 {
+  padding: 1em 1em 0 1em;
+}
+
+.text-padding-02 {
+  padding: 0 1em 0 1em;
 }
 
 table {
@@ -260,11 +258,9 @@ table tr th {
   color: #fff;
 }
 
-.background-black {
-  background-image: radial-gradient(farthest-corner at 100px 100px , #5e006d 0%, #040404 100%);  color: #fff;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.background {
+  background-image: radial-gradient(farthest-corner at 100px 100px, #5e006d 0%, #040404 100%);
+  color: #fff;
 }
 
+/*# sourceMappingURL=style.css.map */

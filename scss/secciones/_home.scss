@@ -8,12 +8,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    color: $secondary-color;
     grid-area: img-name;
+    background-image: url(/images/bg-index.jpg);
+    color: #fff;
 }
-.img-name-span:hover{
-   transform: skew(-1deg)
-}
+
+
 .about-img{
     padding: 2em;
     @include center-flex;

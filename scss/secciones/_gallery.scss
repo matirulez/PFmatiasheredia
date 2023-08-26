@@ -1,5 +1,5 @@
 .container-gallery{
-    background-image: linear-gradient($secondary-color, #c4c4c4);
+    background-image: radial-gradient(farthest-corner at 100px 100px , #5e006d 0%, #040404 100%);  color: #fff;
 }
 .work-container{
     display: flex;
@@ -18,8 +18,13 @@
     flex: 1 0 300px;
     max-width: 300px;
 }
+
+.item-image img {
+    border-radius: 15px;
+}
+
 .hr-product{
-    color: $primary-color;
+    color: $secondary-color;
     border: solid 0.5px;
     width: 38%;
     margin-bottom: 1em;
