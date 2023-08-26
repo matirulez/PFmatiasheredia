@@ -1,0 +1,58 @@
+.title-page-contact{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 35px;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 110vh;
+    color: $secondary-color;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 1em;
+}
+.data-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 25em;
+}
+.data-form-textarea{
+    margin: 0.25em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.data-form label{
+    @extend .data-form-textarea;
+}
+.btn-enviar{
+    @extend .data-form-textarea;
+}
+.data-form input{
+    @extend .data-form-textarea;
+}
+
+.data-form input, .data-form textarea, .btn-enviar{
+    border: 0px solid $secondary-color;
+    border-radius: 10px;
+    width: 100%;
+    padding: 0.5em;
+    box-shadow: 5px 10px 10px rgba(82, 82, 82, 0.489);
+}
+.btn-enviar{
+    height: 2.5em;
+    color: $secondary-color;
+    background-color: $primary-color;
+}
+.hr-contact{
+    color: $secondary-color;
+    border: solid 0.5px;
+    width: 90%;
+    margin: 0.5em 0 0.5em; 
+}

@@ -1,0 +1,23 @@
+.footer{
+    padding: 1em;
+    font-size: map-get($map: $font-sizes, $key: 'small');
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    background-color: $primary-color;
+    color: $secondary-color;
+}
+.socials-footer{
+    @include center-flex;
+    margin: 0;
+    padding: 0;
+}
+.social{
+    width: 2em;
+    padding: 0.5em;
+    filter:grayscale(100);
+}
+.copy{
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+img{
+    width: 100%;
+}
+.container-flui{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+body{
+    min-height: 100vh;
+}
+
+.title-page{
+    padding: 5em 0 1em 1em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+li{
+    list-style: none;
+}
+
+

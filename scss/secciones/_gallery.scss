@@ -1,0 +1,43 @@
+.container-gallery{
+    background-image: linear-gradient($secondary-color, #c4c4c4);
+}
+.work-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+.gallery-work-item{
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    flex: 1 0 300px;
+    max-width: 300px;
+}
+.hr-product{
+    color: $primary-color;
+    border: solid 0.5px;
+    width: 38%;
+    margin-bottom: 1em;
+}
+.product-info p{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.container-photos{
+    padding-bottom: 0.5em;
+    color: $secondary-color;
+    background-color: $primary-color;
+}
+.col-xl-6 img{
+    padding: 0.5em 0 0.5em 0;
+}
+
+body{
+    background-attachment: fixed;
+}

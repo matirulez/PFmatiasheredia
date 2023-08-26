@@ -1,0 +1,15 @@
+$primary-color: #000;
+$secondary-color: #c52626;
+
+
+@mixin center-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+$font-sizes: (
+    'small': 0.9em,
+    'medium': 1.1em,
+    'extra-large': 4em,
+)

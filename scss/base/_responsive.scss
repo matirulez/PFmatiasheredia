@@ -1,0 +1,16 @@
+@media screen and (max-width: 900px) {
+    footer{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    tr {
+        @include center-flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 750px) {
+    .data-form{
+        width: 100%;
+    }
+}

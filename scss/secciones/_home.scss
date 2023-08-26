@@ -1,0 +1,36 @@
+.img-name{
+    min-height: 100vh;
+    @include center-flex;
+    font-size: map-get($map: $font-sizes, $key: 'extra-large');
+    text-align: center;
+    font-weight: bold;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: $secondary-color;
+    grid-area: img-name;
+}
+.img-name-span:hover{
+   transform: skew(-1deg)
+}
+.about-img{
+    padding: 2em;
+    @include center-flex;
+    background-color: $primary-color;
+    color: $secondary-color;
+}   
+.about-text{
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $primary-color;
+    color: $secondary-color;
+}
+.text-padding-01{
+    padding: 1em 1em 0 1em;
+}
+.text-padding-02{
+    padding: 0 1em 0 1em;
+}
