@@ -12,27 +12,49 @@
     background: radial-gradient(farthest-corner at 100px 100px , #5e006d 0%, #040404 100%);  color: #fff;
     color: #fff;
 }
-
-
-.about-img{
-    background-color: $primary-color;
-    color: $secondary-color;
-}   
-.about-text{
-    line-height: 1.5;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background: radial-gradient(farthest-corner at 100px 100px , #5e006d 0%, #040404 100%);  color: #fff;
-    color:#fff;
-
-}
-.text-padding-01{
-    padding: 1em 1em 0 1em;
-}
-.text-padding-02{
-    padding: 0 1em 0 1em;
+ 
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 2rem;
 }
 
+.blur{
+    position: absolute;
+     box-shadow: 0 0 1000px 50px #5e006d;
+}
 
-  
+header{
+    position: relative;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+header .content h1{
+     color:#040404;
+     margin-bottom: 1rem;
+     font-size: 3rem;
+     font-weight: 700;
+     line-height: 4rem;
+ }
+
+header .content h1 span{
+     -webkit-text-fill-color: transparent;
+     -webkit-text-stroke: 1px #4c23d58f;
+ }
+
+header .content p{
+     margin-bottom: 2rem;
+     color: #040404;
+ }
+
+header .image{
+     position: relative;
+ }
+
+header .image img{
+     max-width: 600px;
+     margin: auto;
+ }
