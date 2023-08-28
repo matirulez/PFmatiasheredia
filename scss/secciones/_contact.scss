@@ -46,10 +46,24 @@
     box-shadow: 5px 10px 10px rgba(82, 82, 82, 0.489);
 }
 .btn-enviar{
-    height: 2.5em;
-    color: $secondary-color;
-    background-color: $primary-color;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 1rem;
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 40px;    
+    box-shadow: 0 0 0 0 rgba(143, 64, 248, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
 }
+
+
+.btn-enviar:hover{
+    transform: translate(0, -6px);
+    box-shadow: 10px -10px 25px 0 rgba(16, 226, 253, 0.5), -10px 10px 25px 0 rgba(183, 0, 255, 0.794);
+}
+
 .hr-contact{
     color: $secondary-color;
     border: solid 0.5px;
