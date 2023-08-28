@@ -18,11 +18,18 @@
     text-align: center;
     flex: 1 0 300px;
     max-width: 300px;
+    
 }
 
 .item-image img {
     border-radius: 15px;
+    &:hover {
+        transform: scale(1.1);
+        transition: 2s;
+    }
 }
+
+
 
 .hr-product{
     color: #fff;
