@@ -52,7 +52,7 @@ li {
 }
 
 .logo-nav {
-  height: 3em;
+  height: 0.9em;
   width: auto;
   margin-bottom: 4.5px;
   margin-right: 0.35em;
@@ -103,7 +103,7 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-image: radial-gradient(farthest-corner at 100px 100px, #5e006d 0%, #040404 100%);
+  background-image: radial-gradient(farthest-corner at 100px 100px, #e7ad6b 0%, #040404 100%);
   color: #fff;
 }
 
@@ -137,14 +137,13 @@ li {
   text-align: center;
   color: rgb(0, 0, 0);
   border-radius: 40px;
-  box-shadow: 0 0 0 0 rgba(143, 64, 248, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   overflow: hidden;
 }
 
 .btn-enviar:hover {
   transform: translate(0, -6px);
-  box-shadow: 10px -10px 25px 0 rgba(16, 226, 253, 0.5), -10px 10px 25px 0 rgba(183, 0, 255, 0.794);
+  box-shadow: 10px -10px 25px 0 rgba(183, 0, 255, 0.794), -10px 10px 25px 0 rgba(255, 166, 0, 0.794);
 }
 
 .hr-contact {
@@ -156,7 +155,7 @@ li {
 
 .container-gallery {
   color: #fff;
-  background-image: radial-gradient(farthest-corner at 100px 100px, #5e006d 0%, #040404 100%);
+  background-image: radial-gradient(farthest-corner at 100px 100px, #e7ad6b 0%, #040404 100%);
   color: #fff;
 }
 
@@ -226,7 +225,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   grid-area: img-name;
-  background: radial-gradient(farthest-corner at 100px 100px, #5e006d 0%, #040404 100%);
+  background: radial-gradient(farthest-corner at 100px 100px, #e7ad6b 0%, #040404 100%);
   color: #fff;
   color: #fff;
 }
@@ -235,11 +234,6 @@ body {
   max-width: 1200px;
   margin: auto;
   padding: 5rem 2rem;
-}
-
-.blur {
-  position: absolute;
-  box-shadow: 0 0 1000px 50px #5e006d;
 }
 
 header {
@@ -260,7 +254,7 @@ header .content h1 {
 
 header .content h1 span {
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px rgba(76, 35, 213, 0.5607843137);
+  -webkit-text-stroke: 1px #e7ad6b;
 }
 
 header .content p {
@@ -296,7 +290,7 @@ table tr th {
 }
 
 .background {
-  background-image: radial-gradient(farthest-corner at 100px 100px, #5e006d 0%, #040404 100%);
+  background-image: radial-gradient(farthest-corner at 100px 100px, #e7ad6b 0%, #040404 100%);
   color: #fff;
 }
 

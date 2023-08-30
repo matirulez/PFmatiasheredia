@@ -9,7 +9,7 @@
     background-size: cover;
     background-attachment: fixed;
     grid-area: img-name;
-    background: radial-gradient(farthest-corner at 100px 100px , #5e006d 0%, #040404 100%);  color: #fff;
+    background: radial-gradient(farthest-corner at 100px 100px , #e7ad6b 0%, #040404 100%);  color: #fff;
     color: #fff;
 }
  
@@ -17,11 +17,6 @@
     max-width: 1200px;
     margin: auto;
     padding: 5rem 2rem;
-}
-
-.blur{
-    position: absolute;
-     box-shadow: 0 0 1000px 50px #5e006d;
 }
 
 header{
@@ -42,7 +37,7 @@ header .content h1{
 
 header .content h1 span{
      -webkit-text-fill-color: transparent;
-     -webkit-text-stroke: 1px #4c23d58f;
+     -webkit-text-stroke: 1px #e7ad6b;
  }
 
 header .content p{
