@@ -1,11 +1,11 @@
 PRESUPUESTO WEB
 
 
-Sitio Web banda electronica RUFUS DU SOUL
+Sitio Web Portfolio
 
 
 OBJETIVO:
-- Crear un sitio web responsive con seis secciones (home, discográfica, tour, galería shop, fotos y contacto) con información de la banda para mantener informados a los seguidores y alojar todos sus datos en un mismo lugar.
+- Crear un sitio web responsive con cuatro secciones (home/about, galeria de trabajos, cursos/skills, contacto) 
 - Optimizacion para buscadores mediante SE0
 - Sitio web alojado en hosting contratado en www.hostiger.com con el dominio www.rufusdusoul.com
 
@@ -20,23 +20,23 @@ SERVICIOS:
 
 PRESUPUESTO:
 
-Valor por hora trabajada: $1.250
-Estimation de tiempo del proyecto en horas: 30
+Valor por hora trabajada: $3.900
+Estimation de tiempo del proyecto en horas: 55
 
-Costo del proyecto:          $37.000
-Hosting y dominio:           $13.000
+Costo del proyecto:          $214.000
+Hosting y dominio:           $12.000
 
-COSTO TOTAL PROYECTO:        $50.000
+COSTO TOTAL PROYECTO:        $226.000
 COSTO MENSUAL MANTENIMIENTO: $3.000
 
 
 METODO DE PAGO y facturación:
 
 Transferencia bancaria
-CBU 274839974989978
+CBU 274831174981176
 
 Facturación
-CUIL 47839786786
+CUIL 21332425655
 
 
 PLAZOS:
