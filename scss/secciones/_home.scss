@@ -27,7 +27,7 @@ header{
     gap: 2rem;
 }
 
-header .content h1{
+main h1{
      color:#040404;
      margin-bottom: 1rem;
      font-size: 3rem;
@@ -35,21 +35,21 @@ header .content h1{
      line-height: 4rem;
  }
 
-header .content h1 span{
+main h3 span{
      -webkit-text-fill-color: transparent;
      -webkit-text-stroke: 1px #e7ad6b;
  }
 
-header .content p{
+main .content p{
      margin-bottom: 2rem;
      color: #040404;
  }
 
-header .image{
+main .image{
      position: relative;
  }
 
-header .image img{
+main .image img{
      max-width: 600px;
      margin: auto;
  }

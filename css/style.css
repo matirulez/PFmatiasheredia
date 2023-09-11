@@ -46,14 +46,16 @@ li {
   .data-form {
     width: 100%;
   }
+  .container {
+    grid-template-columns: 1fr;
+  }
 }
 .navbar {
   background-color: #000;
 }
 
 .logo-nav {
-  height: 0.9em;
-  width: auto;
+  width: 50px;
   margin-bottom: 4.5px;
   margin-right: 0.35em;
 }
@@ -244,7 +246,7 @@ header {
   gap: 2rem;
 }
 
-header .content h1 {
+main h1 {
   color: #040404;
   margin-bottom: 1rem;
   font-size: 3rem;
@@ -252,31 +254,31 @@ header .content h1 {
   line-height: 4rem;
 }
 
-header .content h1 span {
+main h3 span {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px #e7ad6b;
 }
 
-header .content p {
+main .content p {
   margin-bottom: 2rem;
   color: #040404;
 }
 
-header .image {
+main .image {
   position: relative;
 }
 
-header .image img {
+main .image img {
   max-width: 600px;
   margin: auto;
 }
 
 table {
-  padding: 2em 2em 2em 2em;
+  padding: 0em 2em 2em 2em;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  min-height: 72.5vh;
+  min-height: 60vh;
 }
 table tr {
   border-top: 0.25px solid #fff;

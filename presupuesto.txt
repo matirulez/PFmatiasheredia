@@ -7,7 +7,7 @@ Sitio Web Portfolio
 OBJETIVO:
 - Crear un sitio web responsive con cuatro secciones (home/about, galeria de trabajos, cursos/skills, contacto) 
 - Optimizacion para buscadores mediante SE0
-- Sitio web alojado en hosting contratado en www.hostiger.com con el dominio www.rufusdusoul.com
+- Sitio web alojado en hosting contratado en www.hostiger.com con el dominio www.mhfrontdev.com
 
 
 SERVICIOS:
